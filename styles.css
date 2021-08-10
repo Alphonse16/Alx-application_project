@@ -1,0 +1,215 @@
+body, main{
+    display: flex;
+}
+
+body{
+    flex-direction: column;
+}
+
+main{
+    flex-direction: row;
+    flex: auto;
+}
+
+article{
+    flex: 2;
+}
+
+aside{
+    flex: 1;
+    
+}
+
+article, aside{
+    overflow-y: auto;
+}
+
+/* ===========*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* Header */
+header{
+    background: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #298c99;
+    font-weight: bold;
+}
+
+
+
+/* Newsletter */
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+    margin-top: auto;
+}
+
+#newsletter h2{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#newsletter button{
+    background-color: #e81d1d;
+    border-radius: 90px;
+}
+
+#newsletter button:hover{
+    background-color: rgb(194, 191, 22);
+    text-emphasis-color: black;
+}
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Services */
+#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 15px;
+    background: #e6e6e6;
+}
+
+#services img{
+    margin: 50px;
+}
+
+
+
+/* Main-col */
+#main-col{
+    float: left;
+    width: 65%;
+}
+
+/*===Contact====*/
+input, textarea{
+    width: 60%;
+    padding: 5px;
+}
+
+#serve img{
+    margin: 20px;
+}
+
+#serve button{
+    background-color: #35424a ;
+    border-radius: 90px;
+    border-color: #e8491d;
+    color: whitesmoke;
+}
+
+#serve button:hover{
+    background-color: #e8491d;
+    color: coral;
+}
+
+#serve button:hover{
+    color: rgb(14, 4, 4);
+} 
+
+
+/* footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #e8491d;
+    text-align: center;
+    height: 90px;
+}
+
+/*===social=====*/
+
+
+.facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+.twitter {
+  color: white;
+  background-color:  #00acee;
+}
+
+.linkedin {
+    color: white;
+    background-color: #0e76a8;
+  }
+
+.right a{
+    text-transform: lowercase;
+    border-radius: 500px;
+    background-color: rgb(21, 56, 133);
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.right a:hover{
+    color: rgb(78, 219, 184);
+    size: 30px;
+}
+.right a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+  }
+
