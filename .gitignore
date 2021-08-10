@@ -1,5 +1,4 @@
-.png
-.jpg
-data_science
+*.png
+*.jpg
 i/
-.webp
+*.webp
